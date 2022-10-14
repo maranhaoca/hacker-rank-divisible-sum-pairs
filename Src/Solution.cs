@@ -1,38 +1,11 @@
-﻿using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-class Result
+namespace Src
 {
-
-    /*
-     * Complete the 'divisibleSumPairs' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts following parameters:
-     *  1. INTEGER n
-     *  2. INTEGER k
-     *  3. INTEGER_ARRAY ar
-     */
-
-    public static int divisibleSumPairs(int n, int k, List<int> ar)
-    {
-        return null;
-    }
-
-}
-
-class Solution
+   public class Solution
 {
     public static void Main(string[] args)
     {
@@ -53,4 +26,5 @@ class Solution
         textWriter.Flush();
         textWriter.Close();
     }
+}
 }
